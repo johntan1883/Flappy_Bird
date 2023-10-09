@@ -26,9 +26,5 @@ public class FlappyBird : MonoBehaviour
             //Debug.Log("We should flap");
         }
 
-        if (Input.GetButtonDown("Flap")) 
-        { 
-            //to do task :move left and right
-        }
     }
 }
