@@ -16,7 +16,7 @@ public class FlappyBird : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump")) 
+        if (Input.GetButtonDown("Jump"))
         {
             //vector2(0,0)
             //Vector2.up = (0, 1);
@@ -25,6 +25,5 @@ public class FlappyBird : MonoBehaviour
             _rigidBody2D.AddForce(Vector2.up * JumpForce);
             //Debug.Log("We should flap");
         }
-
     }
 }

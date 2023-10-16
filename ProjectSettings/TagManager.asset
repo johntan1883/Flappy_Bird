@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
+  - Obstacles
+  - Scoring
+  - UI
   layers:
   - Default
   - TransparentFX
@@ -39,6 +41,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3896481813
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Over
+    uniqueID: 2700388117
     locked: 0
